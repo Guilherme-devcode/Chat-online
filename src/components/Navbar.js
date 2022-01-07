@@ -20,16 +20,18 @@ export default ({onReceive}) =>{
     })
 
     return(
-        <div className="navbar">
-            <header>
-                <a href="#" className="logo">whatsapp</a>
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Tecnologias</a></li>
-                    <li><a onClick={handleFacebookLogin}>Entrar</a></li>
-                </ul>
-            </header>
-            <section className="banner"></section>
+        <div className="navbar-body">
+            <div className="navbar">
+                <header className="navbar-header">
+                    <a className="logo">whatsapp</a>
+                    <ul>
+                        <li><a>Inicio</a></li>
+                        <li><a>Tecnologias</a></li>
+                        <li><a onClick={handleFacebookLogin}>Entrar</a></li>
+                    </ul>
+                </header>
+                <section className="banner"></section>
+            </div>
         </div>
     );
 }

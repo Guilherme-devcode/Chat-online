@@ -19,6 +19,7 @@ export default ({onReceive}) =>{
             <Navbar/>
             <LoginContainer />
             <Tecnology/>
+            <button onClick={handleFacebookLogin}>lOGIN</button>
         </div>
     );
 }
