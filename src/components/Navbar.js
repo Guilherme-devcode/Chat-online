@@ -26,7 +26,7 @@ export default ({onReceive}) =>{
                 <ul>
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#">Tecnologias</a></li>
-                    <li><a onClick={handleFacebookLogin} href="#">Entrar</a></li>
+                    <li><a onClick={handleFacebookLogin}>Entrar</a></li>
                 </ul>
             </header>
             <section className="banner"></section>

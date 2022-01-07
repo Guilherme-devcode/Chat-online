@@ -21,7 +21,7 @@ export default ({onReceive})=>{
 		        <div class="text">
 			    <h2>Whatsapp <WhatsAppIcon className="icone"/></h2>
 			    <p>Com o WhatsApp para web e computador, você pode sincronizar facilmente suas conversas no seu computador e conversar da maneira que for mais conveniente para você.</p>
-			    <a class="btn" onClick={handleFacebookLogin} href="#">Entrar</a>
+			    <a class="btn" onClick={handleFacebookLogin}>Entrar</a>
 		    </div>
 	    </div>
         <div className="imgBx">
