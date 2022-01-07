@@ -18,11 +18,12 @@ header{
     align-items: center;
     transition: 0.6s;
     padding: 40px 100px;
+    z-index: 1;
 }
 header .logo{
     position: relative;
     font-weight: 700;
-    color: #fff;
+    color: #00BFA5;
     text-decoration: none;
     font-size: 2em;
     text-transform: uppercase;
@@ -31,7 +32,7 @@ header .logo{
     cursor: default;
 }
 header .logo:hover{
-    color: #00BFA5
+    color: #075e54;
 }
 header ul{
     position: relative;
@@ -48,13 +49,15 @@ header ul li a{
     position: relative;
     margin: 0 15px;
     text-decoration: none;
-    color: #fff;
+    color: #00BFA5;
     font-weight: 500p;
     transition: 0.6s;
 }
 header.sticky{
     padding: 5px 100px;
     background-color: #00BFA5;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+
 }
 header.sticky ul li a{
     color: #fff;
@@ -63,8 +66,8 @@ header.sticky .logo{
     color: #fff;
 }
 header ul li a:hover{
-    color: #00BFA5
+    color: #075e54
 }
 header.sticky ul li a:hover{
-    color: #fff;
+    color: #075e54;
 }

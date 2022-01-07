@@ -2,6 +2,8 @@ import React from 'react';
 import Api from '../Api';
 import './Login.css';
 import Navbar from './Navbar';
+import LoginContainer from './LoginContainer';
+import Tecnology from './Tecnology';
 
 export default ({onReceive}) =>{
     const handleFacebookLogin = async () =>{
@@ -15,7 +17,8 @@ export default ({onReceive}) =>{
     return(
         <div className="login">
             <Navbar/>
-            <button onClick={handleFacebookLogin}>Login</button>
+            <LoginContainer />
+            <Tecnology/>
         </div>
     );
 }

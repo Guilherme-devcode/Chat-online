@@ -1,9 +1,18 @@
 import React from "react";
-import './navbar.css'
+import './navbar.css';
+import Api from '../Api';
 
 
-export default () =>{
+export default ({onReceive}) =>{
     
+    const handleFacebookLogin = async () =>{
+        let result = await Api.fbPopup();
+        if(result){
+            onReceive(result.user);
+        }else{
+            alert("Erro!")
+        }
+    }
 
     window.addEventListener("scroll", function(){
         var header = document.querySelector("header")
@@ -16,9 +25,8 @@ export default () =>{
                 <a href="#" className="logo">whatsapp</a>
                 <ul>
                     <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Sobre</a></li>
                     <li><a href="#">Tecnologias</a></li>
-                    <li><a href="#">Entrar</a></li>
+                    <li><a onClick={handleFacebookLogin} href="#">Entrar</a></li>
                 </ul>
             </header>
             <section className="banner"></section>
