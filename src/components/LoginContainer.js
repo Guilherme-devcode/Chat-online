@@ -17,11 +17,11 @@ export default ({onReceive})=>{
 
     return(
         <div className="main">
-            <div class="contentBx">
-		        <div class="text">
+            <div className="contentBx">
+		        <div className="text">
 			    <h2>Whatsapp <WhatsAppIcon className="icone"/></h2>
 			    <p>Com o WhatsApp para web e computador, você pode sincronizar facilmente suas conversas no seu computador e conversar da maneira que for mais conveniente para você.</p>
-			    <button class="btn" onClick={handleFacebookLogin}>Entrar</button>
+			    <button className="btn" onClick={handleFacebookLogin}>Entrar</button>
 		    </div>
 	    </div>
         <div className="imgBx">
