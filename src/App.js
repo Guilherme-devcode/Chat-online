@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import LoginContainer from './components/LoginContainer';
+import Navbar from './components/Navbar';
 import Login from './components/Login';
 import NewChat from './components/NewChat';
 import ChatWindow from './components/ChatWindow';
@@ -44,7 +46,7 @@ export default () =>{
   }
 
   if(user === null){
-    return (<Login onReceive={handleLoginData}/>);
+    return (<Navbar onReceive={handleLoginData}/>);
   }
 
   return(
