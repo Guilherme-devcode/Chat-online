@@ -14,12 +14,14 @@ export default ({onReceive}) =>{
             alert("Erro!")
         }
     }
+    
     return(
         <div className="login">
             <Navbar/>
             <LoginContainer />
             <Tecnology/>
-            <button onClick={handleFacebookLogin}>lOGIN</button>
+            <a className="button-login-nav" onClick={handleFacebookLogin}>entrar</a>
+            <button className="button-login" onClick={handleFacebookLogin}>entrar</button>
         </div>
     );
 }

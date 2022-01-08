@@ -27,7 +27,6 @@ export default ({onReceive}) =>{
                     <ul>
                         <li><a>Inicio</a></li>
                         <li><a>Tecnologias</a></li>
-                        <li><a onClick={handleFacebookLogin}>Entrar</a></li>
                     </ul>
                 </header>
                 <section className="banner"></section>
