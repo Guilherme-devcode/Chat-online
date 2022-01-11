@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .button-login{
     text-decoration: none;
@@ -20,19 +21,10 @@
 	cursor: pointer;
     text-transform: capitalize;
     left: 105px;
-    top: 65%;
+    top: 68%;
 
 }
 .button-login:hover{
     background: #075e54
 }
-.button-login-nav{
-    color: #fff;
-    text-transform: capitalize;
-    position: absolute;
-    top: 30px;
-    left: 78em;
-    font-weight: 500px;
-    transition: 0.6s;
-    cursor: pointer;
-}
+

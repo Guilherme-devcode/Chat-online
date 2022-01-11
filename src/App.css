@@ -1,5 +1,7 @@
 *{
   box-sizing: border-box;
+
+  scroll-behavior: smooth;
 }
 body{
   background-color: #D2DBDC;

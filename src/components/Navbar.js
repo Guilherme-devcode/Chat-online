@@ -25,7 +25,8 @@ export default ({onReceive}) =>{
                 <header className="navbar-header">
                     <a className="logo">whatsapp</a>
                     <ul>
-                        <li><a>Inicio</a></li>
+                        <li><a href="#LoginContainer">Inicio</a></li>
+                        <li><a href="#About">Sobre</a></li>
                         <li><a>Tecnologias</a></li>
                     </ul>
                 </header>

@@ -2,12 +2,13 @@ import React from "react";
 import './LoginContainer.css';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import Slide3 from './img/Slide3.png'
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 export default ()=>{
 
 
     return(
-        <div className="main">
+        <div className="main" id="LoginContainer">
             <div className="contentBx">
 		        <div className="text">
 			    <h2>Whatsapp <WhatsAppIcon className="icone"/></h2>
@@ -17,6 +18,7 @@ export default ()=>{
         <div className="imgBx">
             <img className="notebook" src={Slide3}/>
         </div>
+        <div className="button-down"><a href="#About"><KeyboardArrowDownIcon  className="icon-down"/></a></div>
     </div>
     )
     }
