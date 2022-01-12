@@ -4,8 +4,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    overflow-y: hidden;
 }
+
 .button-login{
     text-decoration: none;
     border-style: none;

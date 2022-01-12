@@ -1,6 +1,8 @@
 import React from "react";
 import './navbar.css';
 import Api from '../Api';
+import { FaWhatsapp } from 'react-icons/fa';
+
 
 
 export default ({onReceive}) =>{
@@ -23,11 +25,11 @@ export default ({onReceive}) =>{
         <div className="navbar-body">
             <div className="navbar">
                 <header className="navbar-header">
-                    <a className="logo">whatsapp</a>
+                    <a href="#LoginContainer" className="logo"><FaWhatsapp/></a>
                     <ul>
                         <li><a href="#LoginContainer">Inicio</a></li>
                         <li><a href="#About">Sobre</a></li>
-                        <li><a>Tecnologias</a></li>
+                        <li><a href="#Tecnology">Tecnologias</a></li>
                     </ul>
                 </header>
                 <section className="banner"></section>

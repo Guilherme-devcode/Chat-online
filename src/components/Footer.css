@@ -1,0 +1,45 @@
+.Footer-container{
+        margin: 0;
+        background: #00BFA5;
+        padding: 0;
+        width: 100%;
+        height: 20%;
+        position: absolute;
+        top: 300vh;
+        left: 0em;
+        z-index: 0;
+        overflow: hidden;
+}
+.footer-right {
+        float: right;
+        margin-top: 6px;
+        max-width: 180px;
+}
+    
+.footer-right a {
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        background-color: #075e54;
+        border-radius: 10px;
+        font-size: 20px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 35px;
+        margin-left: 5px;
+        margin-right: 15px;
+        transition: all .25s;
+        text-align: left;
+        box-sizing: border-box;
+        margin-top: 25px;
+        padding: 2px 10px 0 6.5px;;
+}
+.footer-right a:hover {
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+}
+.footer-left p {
+        color: white;
+        font-size: 18px;
+        margin: 25px;
+}

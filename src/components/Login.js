@@ -4,7 +4,8 @@ import './Login.css';
 import Navbar from './Navbar';
 import LoginContainer from './LoginContainer';
 import About from './About';
-
+import Tecnology from './Tecnology';
+import Footer from './Footer';
 
 export default ({onReceive}) =>{
     const handleFacebookLogin = async () =>{
@@ -21,6 +22,8 @@ export default ({onReceive}) =>{
             <Navbar />
             <LoginContainer />
             <About />
+            <Tecnology/>
+            <Footer/>
             <button className="button-login" onClick={handleFacebookLogin}>entrar</button>
         </div>
     );

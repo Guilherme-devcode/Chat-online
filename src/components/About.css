@@ -10,15 +10,65 @@
     left: 0em;
     z-index: 0;
     overflow: hidden;
+} 
+.container-about{
+	width: 100%;
+	height: 100vh;
+	padding: 0 8%;
 }
-.h2-about{
-    display: flex;
-    flex-direction: row;
+.container-about h1{
+    font-weight: bold;
     color: #00BFA5;
-    width: 100%;
-    position: relative;
-    top: 30px;
-    transform: translate(38%);
-    font-size: 45px;
-    text-transform: uppercase;
+	text-align: center;
+	padding-top: 5%;
+	margin-bottom: 60px;
+    cursor: default;
+	position: relative;
+	text-transform: uppercase;
+}
+.container-about h1::after{
+	content: '';
+	background: #00BFA5;
+	width: 250px;
+	height: 5px;
+	position: absolute;
+	bottom: -5px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.row-about{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+	grid-gap: 30px;
+}
+.service-about{
+	text-align: center;
+	padding: 25px 10px;
+	border-radius: 5px;
+	font-size: 14px;
+	cursor: default;
+	background: transparent;
+	transition: transform 0.5s, background 0.5s;
+}
+.icon{
+    transform: scale(1.8);
+	margin-bottom: 10px;
+	color: #00BFA5;
+}
+.service-about h2{
+	text-transform: capitalize;
+	font-weight: 600;
+	margin-bottom: 8px;	
+}
+.service-about p{
+	font-weight: 400;
+	line-height: 20px;
+}
+.service-about:hover{
+	background: #00BFA5;
+	color: #fff;
+	transform: scale(1.05);
+}
+.service-about:hover .icon{
+	color: #fff;
 }

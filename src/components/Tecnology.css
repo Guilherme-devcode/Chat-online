@@ -1,0 +1,108 @@
+.tec-elements h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #00BFA5;
+	text-align: center;
+	margin-bottom: 60px;
+    cursor: default;
+	position: absolute;
+	text-transform: uppercase;
+    top: 3em;
+}
+.tec-elements h2::after{
+	content: '';
+	background: #00BFA5;
+	width: 600px;
+	height: 5px;
+	position: absolute;
+	bottom: -5px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.content-tec{
+    margin: 0;
+    background: #f7f9f9;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 200vh;
+    left: 0em;
+    z-index: 0;
+    overflow: hidden;
+}
+.tec-elements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+.sci{
+    position: relative;
+    display: flex;
+}
+.sci li{
+    list-style: none;
+}
+.sci li:hover:before{
+    opacity: 0.1;
+    transform: translate(-50%, calc(-50% + 150px));
+
+}
+.sci li::before{
+    z-index: 0;
+    content: attr(data-text);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, calc(-50% + 120px));
+    font-size: 14vw;
+    font-weight: 700;
+    transition: 0.5s;
+    opacity: 0;
+}
+.sci li a{
+    z-index: 1;
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 4em;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    box-shadow: 0 25px 35px rgba(0,0,0,0.1);
+    transition: background 0.25s;
+}
+.sci li a:hover.React-icon{
+    background: #61dbfb;
+    color: #fff;
+}
+.sci li a:hover.Html-icon{
+    background: #e34c26;
+    color: #fff;
+}
+.sci li a:hover.Css-icon{
+    background: #264de4;
+    color: #fff;
+}
+.sci li a:hover.Js-icon{
+    background: #f0db4f;
+    color: #fff;
+}
+
+.sci li a:hover.Firebase-icon{
+    background: #FFCA2A;
+    color: #fff;
+}
+.sci li a:hover.Facebook-icon{
+    background: #1877F2;
+    color: #fff;
+}
