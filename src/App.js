@@ -6,7 +6,7 @@ import ChatWindow from './components/ChatWindow';
 import ChatListItem from './components/ChatListItem';
 import ChatIntro from './components/ChatIntro';
 import ChatIcon from '@mui/icons-material/Chat';
-import { IoExitSharp } from "react-icons/io5";
+import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 import SearchIcon from '@mui/icons-material/Search';
 import Api from './Api';
 export default () =>{
@@ -65,7 +65,7 @@ export default () =>{
                 <ChatIcon ></ChatIcon>
                 </div>
                 <div onClick={refreshPage} className='headerbtn'>
-                <IoExitSharp/>
+                <ExitToAppIcon/>
                 </div>
               </div>
             </header>
