@@ -72,3 +72,11 @@
 .service-about:hover .icon{
 	color: #fff;
 }
+@media (max-width:991px){
+	.content{
+		height: 300vh;
+	}
+	.container-about h1{
+		padding-top: 15%;
+	}
+}

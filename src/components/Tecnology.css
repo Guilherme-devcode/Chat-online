@@ -106,3 +106,33 @@
     background: #1877F2;
     color: #fff;
 }
+@media (max-width:991px){
+    .content-tec{
+        top: 350vh;
+        height: 100vh;
+
+    }
+    .sci{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 200px;
+        left: -20px;
+        margin-top: 10em;
+    }
+    .sci li a{
+        margin: 10px;
+        font-size: 4em;
+        width: 100px;
+        height: 100px;
+    }
+    .tec-elements h2{
+        font-size: 30px;
+        top: 2em;
+    }
+    .tec-elements h2::after{
+        width: 400px;
+    }
+    .sci li::before{
+        margin: 30px;
+    }
+}

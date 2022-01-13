@@ -21,22 +21,22 @@ export default()=>{
                     <h2 className="Tec-title">Tecnologias usadas no projeto</h2>
                     <ul className="sci">
                         <li data-text="React" data-color="#61dbfb">
-                            <a className="React-icon" href="#"><FaReact/></a>
+                            <a className="React-icon" ><FaReact/></a>
                         </li>
                         <li data-text="Html" data-color="#e34c26">
-                            <a className="Html-icon" href="#"><FaHtml5/></a>
+                            <a className="Html-icon" ><FaHtml5/></a>
                         </li>
                         <li data-text="Css" data-color="#264de4">
-                            <a className="Css-icon" href="#"><FaCss3Alt/></a>
+                            <a className="Css-icon" ><FaCss3Alt/></a>
                         </li>
                         <li data-text="Javascript" data-color="#f0db4f">
-                            <a className="Js-icon" href="#"><FaJsSquare/></a>
+                            <a className="Js-icon" ><FaJsSquare/></a>
                         </li>
                         <li data-text="Firebase" data-color="#FFCA2A">
-                            <a className="Firebase-icon" href="#"><SiFirebase/></a>
+                            <a className="Firebase-icon" ><SiFirebase/></a>
                         </li>
                         <li data-text="Facebook" data-color="#1877F2">
-                            <a className="Facebook-icon" href="#"><FaFacebook/></a>
+                            <a className="Facebook-icon" ><FaFacebook/></a>
                         </li>
                     </ul>
                                         

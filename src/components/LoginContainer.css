@@ -94,3 +94,35 @@
 .icon-down:hover{
 	color: #00BFA5;	
 }
+@media (max-width:991px){
+	.main{
+		padding: 30px;
+		background: #f7f9f9;
+		height: 100%;
+	}
+	.contentBx{
+		flex-direction: column;
+		margin: 100px 0;
+	}
+	.notebook{
+		display: none;
+	}
+	.contentBx .text h2{
+		font-size: 3em;
+		margin: 5px;
+		top: -10vh;
+		display: flex;
+		flex-direction: row;
+	}
+	.icone{
+		margin: 0;
+		position: absolute;
+		left: 12em;
+		top: 3vh;
+		transform: scale(3);
+		
+	}
+	.icon-down{
+		margin-left: 24vh;
+	}
+}
