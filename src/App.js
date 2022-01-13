@@ -5,9 +5,8 @@ import NewChat from './components/NewChat';
 import ChatWindow from './components/ChatWindow';
 import ChatListItem from './components/ChatListItem';
 import ChatIntro from './components/ChatIntro';
-import DonutLargeIcon from '@mui/icons-material/DonutLarge';
 import ChatIcon from '@mui/icons-material/Chat';
-import MoreVertIcon from '@mui/icons-material/MoreVert';
+import { IoExitSharp } from "react-icons/io5";
 import SearchIcon from '@mui/icons-material/Search';
 import Api from './Api';
 export default () =>{
@@ -29,6 +28,9 @@ export default () =>{
   const handleNewChat = () =>{
     setShowNewChat(true);
   }
+  function refreshPage(){
+    window.location.reload();
+  } 
 
   //AUTENTICAÇÃO DO LOGIN
   const handleLoginData = async(u)=>{
@@ -59,14 +61,11 @@ export default () =>{
             <header>
               <img className='headeravatar' src={user.avatar} alt=""></img>
               <div className='headerbutons'>
-                <div className='headerbtn'>
-                <DonutLargeIcon ></DonutLargeIcon>
-                </div>
                 <div onClick={handleNewChat} className='headerbtn'>
                 <ChatIcon ></ChatIcon>
                 </div>
-                <div className='headerbtn'>
-                <MoreVertIcon></MoreVertIcon>
+                <div onClick={refreshPage()} className='headerbtn'>
+                <IoExitSharp/>
                 </div>
               </div>
             </header>
