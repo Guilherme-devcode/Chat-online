@@ -64,7 +64,7 @@ export default () =>{
                 <div onClick={handleNewChat} className='headerbtn'>
                 <ChatIcon ></ChatIcon>
                 </div>
-                <div onClick={refreshPage()} className='headerbtn'>
+                <div onClick={refreshPage} className='headerbtn'>
                 <IoExitSharp/>
                 </div>
               </div>
