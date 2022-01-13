@@ -66,7 +66,7 @@ Dedicação ao canal https://www.youtube.com/channel/UCw9mYSlqKRXI6l4vH-tAYpQ
 
 ### Autor
 
-> Made with 💙 by GUILHERME ROCHA 👋 [See my LinkedIn](https://www.linkedin.com/in/guilherme-rocha-7b3a69220/) • GitHub [@Guilherme-devcode](https://github.com/Guilherme-devcode)
+> Made by GUILHERME ROCHA 👉 [See my LinkedIn](https://www.linkedin.com/in/guilherme-rocha-7b3a69220/) • GitHub [@Guilherme-devcode](https://github.com/Guilherme-devcode)
 
 
 
