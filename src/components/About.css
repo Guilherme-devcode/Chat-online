@@ -8,8 +8,7 @@
     position: absolute;
     top: 100vh;
     left: 0em;
-    z-index: 0;
-    overflow: hidden;
+
 } 
 .container-about{
 	width: 100%;
@@ -74,8 +73,8 @@
 }
 @media (max-width:991px){
 	.content{
-		height: 190vh;
-	}
+		height: 250vh;
+		}
 	.container-about h1{
 		padding-top: 15%;
 	}
