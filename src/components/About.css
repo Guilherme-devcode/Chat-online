@@ -79,4 +79,7 @@
 	.container-about h1{
 		padding-top: 15%;
 	}
+	.service-about{
+		box-shadow: 0 5px 55px rgba(0,0,0,0.2);
+	}
 }

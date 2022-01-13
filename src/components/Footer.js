@@ -14,7 +14,7 @@ export default ()=>{
                         <a href="https://www.instagram.com/guilherme_devcode/"><SiInstagram/></a>
                    </div>
                    <div className="footer-left">
-                        <p>Guilherme-devcode &copy; 2021</p>
+                        <p>Guilherme-devcode &copy; 2022</p>
                    </div>
             </div>
         </div>

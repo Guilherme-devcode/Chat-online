@@ -72,6 +72,7 @@
     color: #075e54;
 }
 @media (max-width:991px){
+
     .navbar-header{
         padding: 30px;
         justify-content: space-between;

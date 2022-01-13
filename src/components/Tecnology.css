@@ -130,7 +130,7 @@
         top: 2em;
     }
     .tec-elements h2::after{
-        width: 400px;
+        width: 300px;
     }
     .sci li::before{
         margin: 30px;

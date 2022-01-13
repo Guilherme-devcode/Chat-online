@@ -98,14 +98,17 @@
 	.main{
 		padding: 30px;
 		background: #f7f9f9;
-		height: 100%;
 	}
 	.contentBx{
 		flex-direction: column;
 		margin: 100px 0;
 	}
 	.notebook{
-		display: none;
+		position: absolute;
+		left: 10vh;
+		top: 60vh;
+		max-width: 300px;
+		display: block;
 	}
 	.contentBx .text h2{
 		font-size: 3em;
@@ -124,5 +127,7 @@
 	}
 	.icon-down{
 		margin-left: 24vh;
+		opacity: 0;
 	}
+
 }
