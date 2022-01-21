@@ -93,7 +93,7 @@
 }
 
 aside.emoji-picker-react{
-    width: auto;
+    width: 100%;
     background: none;
 }
 .emoji-picker-react .emoji-group:before{
@@ -104,9 +104,7 @@ aside.emoji-picker-react{
     overflow-y: hidden;
     transition: all ease 0.3s;
 }
-.chatWindowemojiarea aside{
-    width: 100%;
-}
+
 .chatWindowbody::-webkit-scrollbar{
     width: 6px;
     height: 6px;
