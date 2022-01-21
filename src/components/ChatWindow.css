@@ -101,9 +101,11 @@ aside.emoji-picker-react{
 }
 .chatWindowemojiarea{
     height: 200px;
-    width: 100%;
     overflow-y: hidden;
     transition: all ease 0.3s;
+}
+.chatWindowemojiarea aside{
+    width: 100%;
 }
 .chatWindowbody::-webkit-scrollbar{
     width: 6px;
