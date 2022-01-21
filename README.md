@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+<p align="center">
+    <img alt="Readme" title="Readme GIF" src="./wpp.png" />
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center"> Clone do Whatsapp com ReactJs</h1>
 
-## Available Scripts
+<p align="center">
+    <a href="#sobre">Sobre</a> • 
+    <a href="#features">Features</a> • 
+    <a href="#demo">Demo</a> • 
+    <a href="#tecnologias">Tecnologias</a> • 
+    <a href="#licenca">Lincença</a> • 
+    <a href="#autor">Autor</a> 
+</p>
 
-In the project directory, you can run:
+### Sobre
 
-### `npm start`
+O projeto "Clone Whatsapp" tem como intuito o meu aprendizado na linguagem javascript e utilizando como framework ReactJs, o aplicativo possui ao maximo ter a mesma interface do própio Whatsapp, onde utiliza-se para autenticação o Facebook através do Firebase, projeto inspirado no professor Bonieky Lacerda, com algumas implementações a mais.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [x] Login de usuário pelo Facebook
+- [x] Envio de mensagens
+- [x] Criação de conversas
+- [x] Envio de emojis
+- [x] Armazenamento de chat e usuário via Firebase
 
-### `npm test`
+### Demo
+<h1 align="center">
+    <img alt="Catalogo de Cursos" title="Catalogo de Cursos" src="./2022-01-13-18-49-36.gif" />
+</h1>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="right">
+<sub>(Preview)</sub>
+</p>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Tecnologias
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+As seguintes ferramentas 🛠 foram usadas na construção do projeto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<table>
+    <tr>
+        <td><a href="https://www.javascript.com/">Javascript</a></td>
+        <td><a href="https://pt-br.reactjs.org/">ReactJs</a></td>
+        <td><a href="https://developers.facebook.com/">Api do Facebook</a></td>
+        <td><a href="https://firebase.google.com/?hl=pt">Firebase</a></td>
+        <td><a href="https://mui.com/pt/">MaterialUI</a></td>
+    </tr>
+    <tr>
+        <td>ECMAScript 2018</td>
+        <td>17.0.2*</td>
+        <td>12.0*</td>
+        <td>10.0.1*</td>
+        <td>5.2.8*</td>
+    </tr>
+</table>
 
-### `npm run eject`
+### Licenca
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+O Clone do Whatsapp é um software de código aberto licenciado sob a [MIT license](http://opensource.org/licenses/MIT).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Referencias
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Dedicação ao canal https://www.youtube.com/channel/UCw9mYSlqKRXI6l4vH-tAYpQ 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Autor
 
-## Learn More
+> Made by GUILHERME ROCHA 👉 [See my LinkedIn](https://www.linkedin.com/in/guilherme-rocha-7b3a69220/) • GitHub [@Guilherme-devcode](https://github.com/Guilherme-devcode)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
