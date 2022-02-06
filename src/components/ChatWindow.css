@@ -92,7 +92,7 @@
     padding-left: 15px;
 }
 
-aside.emoji-picker-react{
+aside .emoji-picker-react{
     width: 100%;
     background: none;
 }
