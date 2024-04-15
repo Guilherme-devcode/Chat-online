@@ -15,15 +15,13 @@
 
 ### Sobre
 
-O projeto "Clone Whatsapp" tem como intuito o meu aprendizado na linguagem javascript e utilizando como framework ReactJs, o aplicativo possui ao maximo ter a mesma interface do própio Whatsapp, onde utiliza-se para autenticação o Facebook através do Firebase, projeto inspirado no professor Bonieky Lacerda, com algumas implementações a mais.
+O "PokeForge" é uma plataforma desenvolvida com Vite e React.js, integrando Docker, Hasura e PostgreSQL. Oferece uma interface dinâmica para explorar Pokémons da PokeAPI, montar times de batalha, ver detalhes e buscar por nome. É uma experiência completa para fãs de Pokémon.
 
 ### Features
 
-- [x] Login de usuário pelo Facebook
-- [x] Envio de mensagens
-- [x] Criação de conversas
-- [x] Envio de emojis
-- [x] Armazenamento de chat e usuário via Firebase
+- [x] Montar seu time Pokémon com api Hasura e PostgreSQL
+- [x] Listagem de pokemons com pokeApi
+- [x] Ver detalhes dos Pokémons
 
 ### Demo
 <h1 align="center">
